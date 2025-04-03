@@ -17,5 +17,15 @@ We are researching Canard Explosions in our Computational Neuroscience class fin
 
 6. Compare original reduced HH/FH-N model parameters to system parameters
 
+## Tests
+
+### Compute basic 2D Reduced HH Solution to an RTM neuron
+
+Here, we just make initial pushes to create the functions to make a plot in order to verify that basic functionality is there. We used the parameters from page 32 from Börgers' textbook [1].
+
+Code for the process of making this plot can be found in [tests/HodgkinHuxley.ipynb](tests/HodgkinHuxley.ipynb)
+
+![Simulated 2D Reduced HodgkinHuxley RTM Neuron](assets/TwoDim_HH_RTM_test.png)
+
 ## References
 [1] Börgers, Christoph. An Introduction to Modeling Neuronal Dynamics Christoph Börgers. Springer International Publishing Springer, 2018.
